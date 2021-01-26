@@ -151,17 +151,13 @@ text-align: center;
 
 #cta{
     
-    background-color: #002fff;
-    text-align: center;
-    font-size: 200%;
-    color: #000000;
-    font-family: 'Ubuntu', sans-serif;
-    padding: 5%;
-    background-color: #002fff;
-    background-image: 
-    url("images/Background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% ;
+   text-align: center;
+        font-size: 200%;
+        color: #ffff00;
+        font-family: 'Ubuntu', sans-serif;
+        padding: 5%;
+        background-image: none;
+        background-color: #002fff;
 }
 
 .download-button-cta{
@@ -169,11 +165,11 @@ text-align: center;
 }
 
 /* footer */
-
+  
 #footer{
     text-align: center;
-    background-color: #002fff;
-    color: #ffffff;
+    background-color: #f8f4f4;
+    color:#002fff;
 }
 .footer-icon{
     margin: 2% 1% 2%;
@@ -184,7 +180,7 @@ text-align: center;
 
 .footer-icon:hover{
     
-    color: #ffff00;
+    color: #000000;
 }
 
 /* Copyright */
