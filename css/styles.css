@@ -10,7 +10,7 @@ body{
 #title{
     background-color: #002fff;
     background-image: 
-    url("/images/Background.jpg");
+    url("images/Background.jpg");
     background-repeat: no-repeat;
     background-size: 125% ;
 }
@@ -157,7 +157,7 @@ text-align: center;
     font-family: 'Ubuntu', sans-serif;
     padding: 5%;
     background-image: 
-    url("/images/Background.jpg");
+    url("images/Background.jpg");
     background-repeat: no-repeat;
     background-size: 100% ;
 }
