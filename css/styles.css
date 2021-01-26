@@ -150,8 +150,7 @@ text-align: center;
 /* Call to action */
 
 #cta{
-    
-   text-align: center;
+        text-align: center;
         font-size: 200%;
         color: #ffff00;
         font-family: 'Ubuntu', sans-serif;
@@ -168,13 +167,13 @@ text-align: center;
   
 #footer{
     text-align: center;
-    background-color: #f8f4f4;
+    background-color: #ffffff;
     color:#002fff;
 }
 .footer-icon{
     margin: 2% 1% 2%;
     size: 5x;
-    color: #ffffff;
+    color:  #f8f4f4;
 
 }
 
