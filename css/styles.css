@@ -2,23 +2,8 @@
 /* body */
 
 body{
-    font-family: 'Montserrat-bold', sans-serif;
-}
-
-/* Title */
-
-#title{
-    background-color: #002fff;
-    background-image: 
-    url("images/Background.jpg");
-    background-repeat: no-repeat;
-    background-size: 125% ;
-}
-
-
-.container-fluid{
-    padding: 2% 4%;
-    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 h1{
@@ -27,8 +12,57 @@ h1{
     font-weight: bolder;
     width: 100%;
     padding: 5%;
-    text-align: center;
     color: #ffff00;
+    font-weight: 700;
+}
+
+.Second-heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+}
+
+h3{
+    line-height: 200%;
+    font-size: 200%;
+}
+
+
+/* Top Section */
+
+
+#title{                                         /* Title */
+    background-color: #002fff;
+    background-image: 
+    url("/images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: 125% ;
+}
+
+.container-fluid{                              /* Bootstrap Container Fluid */           
+    padding: 2% 4%;
+    margin: 0;
+}
+
+.navbar{
+    padding: 5% ;
+}
+  
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 250%;
+    position: relative;
+    right: 2%;
+    
+}
+
+#Brand-name{
+    color: #ffffff;
+}
+
+.nav-item{
+    padding: 2%;
+    font-size: 150%;
 }
 
 #Quest-to-Enlightenment{
@@ -39,56 +73,28 @@ h1{
     padding: 2%;
 } 
 
-.navbar{
-    padding: 5% ;
-}
-  
-.navbar-brand{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 190%;
-    position: relative;
-    right: 2%;
-}
-
-.nav-item{
-    padding: 1.5%;
-}
-
-.nav-link{
-    font-size: 150%;
-}
-
 .download-button{
     margin: 8% 14% 8% auto;
     position: relative;
     left: 20%;
 }
 
-h2{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bolder;
-    font-size: 200%;
-}
 
-/* Features */
+/* Features Section */
 
 #features{
     padding: 3% 10%;
-    background-color: #f3f5f7;
+    background-color: #ffffff;
     position: relative;
     z-index: 1;
 }
 
 .feature-box{
-
-    text-align: center;
     padding: 2.5%;
     color: #0b51bb;
+    font-weight: bolder;
 }
 
-p{
-    font-family: 'Montserrat-bold', sans-serif;
-}
 .icon {
     color: #0d6efd;
     margin-bottom: 8%;
@@ -98,34 +104,28 @@ p{
     color: #0b51bb;
 }
 
-
-#gita-cover{
+#gita-cover{    
    width: 10%;
    float: right;  
 }
 
-h3{
-    line-height: 200%;
-    font-size: 150%;
-}
 
-/* Famous-reflections */
+/* Famous-reflections Section */
+
 
 #Famous-reflections{
     background-color: #2749e0;
-    text-align: center;
     font-family: 'Ubuntu', sans-serif;
     color: #ffffff;
-    height: 100%;
+    padding: 2%;
 }
 
 #reflection-slides{
     padding: 1% 12%;
-    text-align: center;
+    margin-top: 5%;
 }
 
 .reflections-images{
-
     width: 15rem;
     border-radius: 100%;
     float: left;
@@ -134,11 +134,14 @@ h3{
 
 }
 
-/* Pricing */
+/* Pricing Section */
 
 #pricing{
 padding: 5%;
-text-align: center;
+}
+
+#pricing-heading{
+color:  #0d2dbb;
 }
 
 .pricing-cards{
@@ -150,13 +153,12 @@ text-align: center;
 /* Call to action */
 
 #cta{
-        text-align: center;
-        font-size: 200%;
-        color: #ffff00;
-        font-family: 'Ubuntu', sans-serif;
-        padding: 5%;
-        background-image: none;
-        background-color: #002fff;
+    
+    padding: 5%;
+    background-image: 
+    url("/images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% ;
 }
 
 .download-button-cta{
@@ -164,22 +166,22 @@ text-align: center;
 }
 
 /* footer */
-  
+
 #footer{
     text-align: center;
-    background-color: #ffffff;
-    color:#002fff;
+    background-color: #002fff;
+    color: #ffffff;
 }
 .footer-icon{
     margin: 2% 1% 2%;
     size: 5x;
-    color: #002fff;
+    color: #ffffff;
 
 }
 
 .footer-icon:hover{
     
-    color: #000000;
+    color: #ffff00;
 }
 
 /* Copyright */
@@ -187,10 +189,6 @@ text-align: center;
 #copyr{
     padding: 1%;
 }
-
-.fa-youtube-play {
-    color: white;
-  }
 
 
 /* Media Query */
@@ -202,7 +200,6 @@ text-align: center;
     }
 
     #Quest-to-Enlightenment{
-        text-align: center;
         width: 100%;
         transform: rotate(0deg);
         position: relative;
@@ -226,8 +223,6 @@ text-align: center;
     }
 
     #cta{
-        text-align: center;
-        font-size: 200%;
         color: #ffff00;
         font-family: 'Ubuntu', sans-serif;
         padding: 10%;
@@ -237,7 +232,7 @@ text-align: center;
 
     .download-button{
         position: relative;
-        left: 8%;
+        left: 1%;
         margin: 5% 2% 5%;
     }
 
@@ -248,13 +243,12 @@ text-align: center;
     }
 
     .footer-icon:hover{
-    
         color: #000000;
     }
 
     #footer{
-        text-align: center;
         background-color: #f8f4f4;
         color:#002fff;
     }
 }
+3
