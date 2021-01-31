@@ -156,10 +156,10 @@ h1{
 #cta{
     
     padding: 5%;
-    background-image: 
+    /* background-image: 
     url("/images/Background.jpg");
     background-repeat: no-repeat;
-    background-size: 100% ;
+    background-size: 100% ; */
 }
 
 .download-button-cta{
