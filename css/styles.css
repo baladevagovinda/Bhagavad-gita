@@ -16,27 +16,31 @@ h1{
     font-weight: 700;
 }
 
-.Second-heading{
+.Second-heading{                                /* Class for h2 tag */
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 300%;
 }
 
-h3{
-    line-height: 200%;
-    font-size: 200%;
+.Colored-section{ 
+    background-color: #002fff;
+    color: #ffffff;
+
 }
 
+.White-section{
+    background-color: #ffffff;
+    color: #000000;
+}
 
 /* Top Section */
 
 
 #title{                                         /* Title */
-    background-color: #002fff;
-    background-image: 
+    /* background-image: 
     url("/images/Background.jpg");
     background-repeat: no-repeat;
-    background-size: 125% ;
+    background-size: 125%; */
 }
 
 .container-fluid{                              /* Bootstrap Container Fluid */           
@@ -45,15 +49,17 @@ h3{
 }
 
 .navbar{
-    padding: 5% ;
+    padding: 5%;
 }
-  
+
+.navbar-nav{
+    color: #ffffff;
+}
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 150%;
+    font-size: 175%;
     position: relative;
     right: 2%;
-    
 }
 
 #Brand-name{
@@ -84,43 +90,38 @@ h3{
 
 #features{
     padding: 3% 10%;
-    background-color: #ffffff;
     position: relative;
     z-index: 1;
+    color: #002fff;
 }
 
 .feature-box{
     padding: 2.5%;
-    color: #0b51bb;
-    font-weight: bolder;
+    color: #000000;
+    font-weight: 800;
 }
 
 .icon {
-    color: #0d6efd;
     margin-bottom: 8%;
 }
 
-.icon:hover{
-    color: #0b51bb;
-}
-
-#gita-cover{    
-   width: 10%;
-   float: right;  
-}
-
-
 /* Famous-reflections Section */
 
-
 #Famous-reflections{
-    background-color: #2749e0;
     font-family: 'Ubuntu', sans-serif;
-    color: #ffffff;
     padding: 2%;
 }
 
+#Famous-reflections h2{
+    color: #ffff00;
+}
+
+#reflection-slides h3{
+    line-height: 2;
+}
+
 #reflection-slides{
+    font-family: 'Open Sans', sans-serif;
     padding: 1% 12%;
     margin-top: 5%;
 }
@@ -137,11 +138,11 @@ h3{
 /* Pricing Section */
 
 #pricing{
-padding: 5%;
+    padding: 5%;
 }
 
 #pricing-heading{
-color:  #0d2dbb;
+    color:  #0d2dbb;
 }
 
 .pricing-cards{
@@ -169,8 +170,7 @@ color:  #0d2dbb;
 
 #footer{
     text-align: center;
-    background-color: #002fff;
-    color: #ffffff;
+    
 }
 .footer-icon{
     margin: 2% 1% 2%;
@@ -196,8 +196,8 @@ color:  #0d2dbb;
 @media screen and  (max-width: 992px){
     #title{
         background-color: #002fff;
-        background-image: none;
-    }
+        background-image:none; 
+    }      
 
     #Quest-to-Enlightenment{
         width: 100%;
